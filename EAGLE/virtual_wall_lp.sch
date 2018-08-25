@@ -10855,6 +10855,13 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-40.64" y1="53.34" x2="-53.34" y2="53.34" width="0.1524" layer="91"/>
 <label x="-53.34" y="53.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="A" pin="VDD"/>
+<wire x1="-241.3" y1="38.1" x2="-246.38" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="-246.38" y1="35.56" x2="-246.38" y2="38.1" width="0.1524" layer="91"/>
+<label x="-248.92" y="38.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="OSC1" class="0">
 <segment>
@@ -10942,14 +10949,6 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-149.86" y1="76.2" x2="-144.78" y2="76.2" width="0.1524" layer="91"/>
 <junction x="-149.86" y="76.2"/>
 <label x="-149.86" y="76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$16" class="1">
-<segment>
-<pinref part="U1" gate="A" pin="VDD"/>
-<wire x1="-241.3" y1="38.1" x2="-246.38" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="-246.38" y1="35.56" x2="-246.38" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
